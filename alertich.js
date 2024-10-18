@@ -67,7 +67,7 @@ function Alertich() {
         const modal = document.createElement('div');
         modal.classList.add('modal');
 
-        let iconSrc = "assets/icons/anim/check-reveal.apng";
+        let iconSrc = "https://ichika06.github.io/alertich/assets/icons/anim/check-reveal.apng";
         let aMessage = message;
         
         switch (alertType) {
@@ -76,11 +76,11 @@ function Alertich() {
                 aMessage = `${message}`;
                 break;
             case 'warning':
-                iconSrc = "assets/icons/anim/error.apng";
+                iconSrc = "https://ichika06.github.io/alertich/assets/icons/anim/error.apng";
                 aMessage = `${message}`;
                 break;
             case 'success':
-                iconSrc = "assets/icons/anim/check-reveal.webp";
+                iconSrc = "https://ichika06.github.io/alertich/assets/icons/anim/check-reveal.webp";
                 aMessage = `${message}`;
                 break;
         }
