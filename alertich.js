@@ -80,7 +80,7 @@ function Alertich() {
                 aMessage = `${message}`;
                 break;
             case 'success':
-                iconSrc = "assets/icons/anim/check-reveal.apng";
+                iconSrc = "assets/icons/anim/check-reveal.webp";
                 aMessage = `${message}`;
                 break;
         }
